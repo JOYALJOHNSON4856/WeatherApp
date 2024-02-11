@@ -1,0 +1,20 @@
+.mains{
+    width: 100%;
+    height: 555px;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Images-HD.jpg');
+}
+
+.inputs{
+    width: 500px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+    display: flex;
+}
+
+@media only screen and (max-width: 430px){
+
+    .mains{
+        height: 640px;
+    }
+}

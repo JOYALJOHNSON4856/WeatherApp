@@ -1,0 +1,47 @@
+.inputts{
+    width: 500px;
+    display: flex;
+    height: 90px;
+    margin-left: 41%;
+    transform: translate(-50%);
+    
+
+}
+
+.inputts input{
+    margin-top: 40px;
+}
+
+.inputts button{
+    margin-top: 40px;
+}
+.mainz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 430px){
+
+    .inputts{
+        width: 350px;
+        height: 80px;
+        margin-left: 83%;
+        transform: translate(-50%);
+        
+    
+    }
+
+    .inputts input{
+        margin-top: 30px;
+    }
+    
+    .inputts button{
+        margin-top: 30px;
+    }
+    
+
+}
+
+
+
